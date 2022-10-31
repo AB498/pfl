@@ -1,0 +1,12 @@
+{
+    "projects": [
+        {
+            "name": "prjName1",
+            "url": "https://raw.githubusercontent.com/AB498/game-cars/51ce8fc5cc91c36f7b4ff905bdb6b9716b477a53/Screenshot_3.png"
+        },
+        {
+            "name": "prjName2",
+            "url": "https://raw.githubusercontent.com/AB498/game-cars/51ce8fc5cc91c36f7b4ff905bdb6b9716b477a53/Screenshot_3.png"
+        }
+    ]
+}

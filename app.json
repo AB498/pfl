@@ -21,7 +21,24 @@
 			"type": "PerspectiveCamera",
 			"name": "Camera",
 			"layers": 1,
-			"matrix": [-0.9420932659922985,-6.938893903907228e-18,-0.3353509775920811,0,-0.11681481499935306,0.9373697443425437,0.32816499110639646,0,0.3143478601305112,0.3483359906630297,-0.8830897238900328,0,13.953081504307601,13.616531021890816,-28.840106395637953,1],
+			"matrix": [
+				-0.9420932659922985,
+				-6.938893903907228e-18,
+				-0.3353509775920811,
+				0,
+				-0.11681481499935306,
+				0.9373697443425437,
+				0.32816499110639646,
+				0,
+				0.3143478601305112,
+				0.3483359906630297,
+				-0.8830897238900328,
+				0,
+				13.953081504307601,
+				13.616531021890816,
+				-28.840106395637953,
+				1
+			],
 			"fov": 50,
 			"zoom": 1,
 			"near": 0.01,
@@ -58,7 +75,8 @@
 				"widthSegments": 1,
 				"heightSegments": 1,
 				"depthSegments": 1
-			}],
+			}
+		],
 		"materials": [
 			{
 				"uuid": "b79e1d7a-615a-4dee-a4a4-938635b5b8f3",
@@ -120,20 +138,55 @@
 				"stencilFail": 7680,
 				"stencilZFail": 7680,
 				"stencilZPass": 7680
-			}],
+			}
+		],
 		"object": {
 			"uuid": "2b895bbe-f6ff-4a1a-9ff1-440b0fa60416",
 			"type": "Scene",
 			"name": "Scene",
 			"layers": 1,
-			"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+			"matrix": [
+				1,
+				0,
+				0,
+				0,
+				0,
+				1,
+				0,
+				0,
+				0,
+				0,
+				1,
+				0,
+				0,
+				0,
+				0,
+				1
+			],
 			"children": [
 				{
 					"uuid": "52555d68-b7f9-47b7-ab4d-c74a5da6b8d2",
 					"type": "DirectionalLight",
 					"name": "DirectionalLight",
 					"layers": 1,
-					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,5,10,7.5,1],
+					"matrix": [
+						1,
+						0,
+						0,
+						0,
+						0,
+						1,
+						0,
+						0,
+						0,
+						0,
+						1,
+						0,
+						5,
+						10,
+						7.5,
+						1
+					],
 					"color": 16777215,
 					"intensity": 1,
 					"shadow": {
@@ -156,7 +209,24 @@
 					"type": "Mesh",
 					"name": "ctr",
 					"layers": 1,
-					"matrix": [0.9958843986159703,0,0.09063258019778016,0,0,1,0,0,-0.09063258019778016,0,0.9958843986159703,0,0,0,0,1],
+					"matrix": [
+						0.9958843986159703,
+						0,
+						0.09063258019778016,
+						0,
+						0,
+						1,
+						0,
+						0,
+						-0.09063258019778016,
+						0,
+						0.9958843986159703,
+						0,
+						0,
+						0,
+						0,
+						1
+					],
 					"geometry": "7f46f106-2949-4e13-a35d-da84638027a5",
 					"material": "b79e1d7a-615a-4dee-a4a4-938635b5b8f3"
 				},
@@ -165,7 +235,24 @@
 					"type": "AmbientLight",
 					"name": "AmbientLight",
 					"layers": 1,
-					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+					"matrix": [
+						1,
+						0,
+						0,
+						0,
+						0,
+						1,
+						0,
+						0,
+						0,
+						0,
+						1,
+						0,
+						0,
+						0,
+						0,
+						1
+					],
 					"color": 2236962,
 					"intensity": 1
 				},
@@ -174,7 +261,24 @@
 					"type": "Sprite",
 					"name": "spr",
 					"layers": 1,
-					"matrix": [0.99556196460308,0,0.09410831331851433,0,0,1,0,0,-0.09410831331851433,0,0.99556196460308,0,1.5390904996904635,0.26888376239007217,-5.257842443154393,1],
+					"matrix": [
+						0.99556196460308,
+						0,
+						0.09410831331851433,
+						0,
+						0,
+						1,
+						0,
+						0,
+						-0.09410831331851433,
+						0,
+						0.99556196460308,
+						0,
+						1.5390904996904635,
+						0.26888376239007217,
+						-5.257842443154393,
+						1
+					],
 					"material": "51171964-8781-4958-a891-87c8010b6d11"
 				},
 				{
@@ -182,17 +286,36 @@
 					"type": "Mesh",
 					"name": "ax2",
 					"layers": 1,
-					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,2.781829088697293,8.597313369526638,4.57996624980922,1],
+					"matrix": [
+						1,
+						0,
+						0,
+						0,
+						0,
+						1,
+						0,
+						0,
+						0,
+						0,
+						1,
+						0,
+						2.781829088697293,
+						8.597313369526638,
+						4.57996624980922,
+						1
+					],
 					"geometry": "6ca6ce55-4485-4764-8da7-51d67f7c658d",
 					"material": "6a00b96e-5064-4ccb-b5dd-193fe6eed387"
-				}]
+				}
+			]
 		}
 	},
 	"scripts": {
 		"4bc63853-a2a2-41f1-97d0-1faebf8a9e00": [
 			{
 				"name": "revolve",
-				"source": "\nfunction makeRequest(method, url) {\n  return new Promise(function (resolve, reject) {\n    let xhr = new XMLHttpRequest();\n    xhr.open(method, url);\n    xhr.onload = function () {\n      if (this.status >= 200 && this.status < 300) {\n        resolve(xhr.response);\n      } else {\n        reject({\n          status: this.status,\n          statusText: xhr.statusText,\n        });\n      }\n    };\n    xhr.onerror = function () {\n      reject({\n        status: this.status,\n        statusText: xhr.statusText,\n      });\n    };\n    xhr.send();\n  });\n}\nmakeRequest(\"GET\", \"https://corshandle.herokuapp.com/https://github.com/AB498/game-cars/blob/51ce8fc5cc91c36f7b4ff905bdb6b9716b477a53/Screenshot_3.png?raw=true\").then((rr)=>{\n\tconsole.log(rr);\n});\n\nspd=0.005;\n\nvar spr = scene.getObjectByName( \"spr\", true );\nvar ctr = scene.getObjectByName( \"ctr\", true );\nvar ax2 = scene.getObjectByName( \"ax2\", true );\nspr.position.copy(new THREE.Vector3().crossVectors(new THREE.Vector3().subVectors(ax2.position, ctr.position),new THREE.Vector3().subVectors(spr.position, ctr.position)));\n\nfunction update( event ) {\n\tvar quaternion = new THREE.Quaternion().setFromAxisAngle( new THREE.Vector3().subVectors(ax2.position, ctr.position), spd );\n\tscene.add( new THREE.ArrowHelper(   new THREE.Vector3().subVectors(ax2.position, ctr.position), spr.position));\n\n\t//spr.rotation.copy( new THREE.Euler().setFromQuaternion(spr.quaternion.multiply(quaternion), \"XYZ\"));\n\tspr.position.copy(new THREE.Vector3().subVectors(spr.position, ctr.position).normalize().multiplyScalar(10).applyQuaternion(quaternion));\n}"
-			}]
+				"source": "s.js"
+			}
+		]
 	}
 }
